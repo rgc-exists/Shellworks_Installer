@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Rnz+ygSssa2Hfczlz5GqZZpjq1kcz6vMWV+F2LzKngcmV1oA5MNYB6AMCugEGoIrax44mO4sRNPQiQhaPKsp3g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rando\\source\\repos\\Shellworks_Installer\\Shellworks_Installer\\Shellworks_Installer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rando\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\rando\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\rando\\.nuget\\packages\\microsoft.win32.registry.accesscontrol\\8.0.0\\microsoft.win32.registry.accesscontrol.8.0.0.nupkg.sha512",
+    "C:\\Users\\rando\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\rando\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
