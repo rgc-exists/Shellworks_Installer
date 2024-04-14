@@ -1,4 +1,5 @@
 using Microsoft.Win32;
+using Shellworks_Installer.Properties;
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
@@ -18,6 +19,9 @@ namespace Shellworks_Installer
 
             wysInstallLocation = DetectInstallLocation();
             UpdateInstallTextbox();
+
+            this.Text = "Shellworks Installer";
+            this.Icon = Resources.Shellworks_installer_logo;
 
             this.ActiveControl = label1;
 
