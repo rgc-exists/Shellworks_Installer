@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Shellworks_Installer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8c9be31647fad9af06ebd963060099c4539f491")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34bededd919ca843da00018703236246d2c67622")]
 [assembly: System.Reflection.AssemblyProductAttribute("Shellworks_Installer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Shellworks_Installer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,6 +3,7 @@ using Shellworks_Installer.Properties;
 using System;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
+using System.Security.Policy;
 using System.Text.RegularExpressions;
 
 namespace Shellworks_Installer
@@ -24,6 +25,7 @@ namespace Shellworks_Installer
             this.Icon = Resources.Shellworks_installer_logo;
 
             this.ActiveControl = label1;
+
 
             errorLabel = label3;
         }
@@ -174,12 +176,29 @@ namespace Shellworks_Installer
                 WYSInstaller.Uninstall(wysInstallLocation, this);
                 button3.Enabled = true;
                 button4.Enabled = true;
-            } else
+            }
+            else
             {
                 string errorString = "Directory is empty or does not exist:\n" + wysInstallLocation;
                 errorLabel.Text = errorString;
                 errorLabel.ForeColor = Color.Red;
             }
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            string url = "https://dotnet.microsoft.com/en-us/download/dotnet/6.0";
+            Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

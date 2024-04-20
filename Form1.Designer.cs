@@ -40,13 +40,17 @@
             button4 = new Button();
             openFileDialog1 = new OpenFileDialog();
             label3 = new Label();
+            linkLabel1 = new LinkLabel();
+            label5 = new Label();
+            label4 = new Label();
+            label6 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(150, 21);
+            pictureBox1.Location = new Point(12, 29);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(200, 200);
             pictureBox1.TabIndex = 0;
@@ -137,11 +141,62 @@
             label3.TabIndex = 8;
             label3.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // linkLabel1
+            // 
+            linkLabel1.AutoSize = true;
+            linkLabel1.Font = new Font("Segoe UI", 17F, FontStyle.Regular, GraphicsUnit.Point);
+            linkLabel1.Location = new Point(232, 124);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(236, 40);
+            linkLabel1.TabIndex = 9;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Dotnet 6 runtime";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.BackColor = SystemColors.Control;
+            label5.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.Location = new Point(234, 164);
+            label5.Name = "label5";
+            label5.Size = new Size(185, 30);
+            label5.TabIndex = 11;
+            label5.Text = "if you haven't yet!";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.BackColor = SystemColors.Control;
+            label4.Font = new Font("Segoe UI", 13F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Location = new Point(234, 99);
+            label4.Name = "label4";
+            label4.Size = new Size(226, 30);
+            label4.TabIndex = 10;
+            label4.Text = "Also install Microsoft's\r\n";
+            label4.Click += label4_Click;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.BackColor = SystemColors.Control;
+            label6.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.ForeColor = Color.Brown;
+            label6.Location = new Point(234, 53);
+            label6.Name = "label6";
+            label6.Size = new Size(214, 46);
+            label6.TabIndex = 12;
+            label6.Text = "IMPORTANT!";
+            // 
             // Form1
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = SystemColors.Control;
             ClientSize = new Size(482, 526);
+            Controls.Add(label6);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(linkLabel1);
             Controls.Add(label3);
             Controls.Add(button4);
             Controls.Add(button3);
@@ -171,5 +226,9 @@
         private Button button4;
         private OpenFileDialog openFileDialog1;
         private Label label3;
+        private LinkLabel linkLabel1;
+        private Label label5;
+        private Label label4;
+        private Label label6;
     }
 }
